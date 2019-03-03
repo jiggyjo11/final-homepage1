@@ -1,0 +1,555 @@
+html, body, #title, #intro {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: open-sans, sans-serif;
+  font-weight: lighter;
+  font-style: normal;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 5rem;
+  font-style: normal;
+  color: #ff7d00;
+  margin: 10% 0;
+  letter-spacing: 0.2rem;
+}
+
+h2, h3, h4, h5, p {
+  color: white;
+  line-height: 1.5;
+  padding: 2rem 0;
+}
+
+.colored-section {
+  background-color: #0D2C4B;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.white-section h2 {
+  color: #0D2C4B;
+}
+
+/* laptop screen genearal */
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 3rem;
+    padding: 2rem 0 2rem 0;
+    margin: 7% 0;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+    padding: 0 2.5rem;
+  }
+}
+
+/* tablet general */
+@media (max-width: 995px) {
+  h1 {
+    font-size: 3rem;
+    padding: 4rem 0 2rem 0;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    color: #001b2c;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+    padding: 0 2.5rem;
+  }
+}
+
+/* iphone general */
+@media (max-width: 700px) {
+  h1 {
+    font-size: 1.5rem;
+    padding: 3.5rem 0 2rem 0;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    padding: 0 9px;
+    font-size: 1rem;
+  }
+}
+
+/* ********************************************************************* */
+/* ********************************************************************* */
+/* TITLE SECTION */
+#title {
+  background-color: #0D2C4B;
+  color: white;
+  background-image: url(../images/img-top-beach-3-psd.png);
+  background-size: cover;
+}
+
+#title h1 {
+  font-family: source-code-pro, monospace;
+  font-weight: 900;
+  font-style: normal;
+  text-align: left;
+  font-size: 6rem;
+}
+
+#title h2 {
+  margin: 10% 0;
+  padding: 0 0 0 6.25rem;
+  margin-top: 6.5625rem;
+  text-align: justify;
+}
+
+.h3-heading-lagerfeld {
+  font-family: le-monde-livre-std, serif;
+  font-weight: 300;
+  font-style: normal;
+  margin-top: 3rem;
+  padding: 0;
+}
+
+.h4-heading-lagerfeld {
+  font-style: italic;
+  padding: 1% 0 3%;
+}
+
+.fas {
+  padding: 1rem;
+  text-align: center;
+}
+
+.center-fas {
+  text-align: center;
+}
+
+#title .container-fluid {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 20px 10% 8rem;
+  position: relative;
+}
+
+.nav-item {
+  padding: 0 6px;
+  font-size: 2rem;
+}
+
+.padding {
+  padding: 0 10%;
+}
+
+.contact-button {
+  color: white;
+  font-weight: bold;
+  border-color: #ff7d00;
+  font-size: 2.7rem;
+  margin-bottom: 10%;
+}
+
+.contact-button:hover {
+  background-color: #ff7d00;
+  border-color: #ff7d00;
+}
+
+/* laptop */
+@media (max-width: 1400px) {
+  #title h1 {
+    font-size: 5rem;
+  }
+
+  #title h2 {
+    margin-top: 5.5rem;
+    padding-left: 3.125rem;
+    font-size: 1.42rem;
+    line-height: 2;
+  }
+
+  #title h3 {
+    margin-top: 0;
+  }
+
+
+  .navbar {
+    padding-bottom: 0;
+  }
+
+  .nav-item {
+    font-size: 1.8rem;
+  }
+
+  .h3-heading-lagerfeld {
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    padding: 0;
+  }
+}
+
+/* Tablet */
+@media (max-width: 995px) {
+  #title h1 {
+    position: static;
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+
+  }
+
+  #title h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 0 10%;
+    margin: 0;
+    color: white;
+    margin: 3%;
+    padding: 5% 0;
+  }
+
+  .h3-heading-lagerfeld {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .h4-heading-lagerfeld {
+    font-size: 0.75rem;
+    color: white;
+    padding: 0;
+  }
+
+  .contact-button {
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+  }
+}
+
+.contact-button {
+  font-size: 2.2rem;
+}
+
+/* Iphone */
+@media (max-width: 700px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  #title h1 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+
+  #title h2 {
+    font-size: 1.3rem;
+    bottom: 10rem;
+  }
+
+  .h3-heading-lagerfeld {
+    font-size: 1rem;
+
+  }
+
+  .h4-heading-lagerfeld {
+    font-size: 0.75rem;
+    padding: 10px 0;
+  }
+
+  .contact-button {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+  }
+}
+
+/******************************************* Welcome section ******************************************/
+#welcome .container-fluid {
+  padding: 0 20%;
+  background-color: white;
+}
+
+#welcome h1 {
+  padding-top: 3rem;
+}
+
+#welcome h2 {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+#welcome span {
+  color: #ff7d00;
+}
+
+#welcome h4 {
+  color: #001b2c;
+  padding: 0 6rem;
+  margin: 2rem 0 5rem 0;
+  color: #66717A;
+}
+
+.Bewerbunsfoto {
+  height: 18rem;
+  margin: 2.5rem 0;
+}
+
+/* laptop */
+@media (max-width: 1400px) {
+  #welcome h1 {
+    margin: 3% 0 1% 0;
+    font-size: 3rem;
+  }
+
+  #welcome h2 {
+    font-size: 2rem;
+  }
+
+  #welcome h4 {
+    padding: 0 4rem;
+    margin: 2rem 0 5rem 0;
+  }
+}
+
+/* Tablet */
+@media (max-width: 995px) {
+  #welcome h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #001b2c;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+
+  #welcome span {
+    color: #ff7d00;
+  }
+
+  #welcome .container-fluid {
+    padding: 0 10%;
+  }
+
+  #welcome p {
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+    padding: 0 12%;
+  }
+
+  .Bewerbunsfoto {
+    height: 15rem;
+  }
+}
+
+/* Iphone */
+@media (max-width: 700px) {
+  #welcome h1 {
+    color: #ff7d00;
+    font-size: 2rem;
+    padding: 3.5rem 0 2rem 0;
+  }
+
+  #welcome h2 {
+    color: #001b2c;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+  }
+
+  #welcome h4 {
+    padding: 0;
+    font-size: 1rem;
+  }
+
+  #welcome span {
+    color: #ff7d00;
+  }
+
+  #welcome .container-fluid {
+    padding: 0 10%;
+  }
+
+  #welcome p {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    padding: 0 10%;
+    font-weight: lighter;
+  }
+
+  .Bewerbunsfoto {
+    height: 10rem;
+  }
+}
+
+/************************************************Skills  **************************************************/
+#skills {
+  background-color: #001b2c;
+  padding: 0 10%;
+}
+
+#icon {
+  margin: 2rem;
+  color: white;
+  font-size: 7rem;
+}
+
+#icon:hover {
+  color: #ff7d00;
+}
+
+#skills h1 {
+  margin: 7% 0;
+  font-size: 3rem;
+}
+
+#skills h2 {
+  color: #ff7d00;
+}
+
+#skills h4 {
+  font-size: 1rem;
+}
+
+.cv-button {
+  color: white;
+  font-weight: normal;
+  border-color: #ff7d00;
+  font-size: 1.5rem;
+  margin: 5rem 0;
+}
+
+.cv-button:hover {
+  background-color: #ff7d00;
+  border-color: #ff7d00;
+}
+
+/* Tablet */
+@media (max-width: 995px) {
+  #skills {
+    padding: 0 7%;
+  }
+
+  .skillbox {
+    margin-bottom: 5rem;
+  }
+
+  #icon {
+    font-size: 4rem;
+    margin: 0;
+  }
+
+  #skills h1 {
+    margin: 10%;
+    font-size: 4rem;
+  }
+
+  #skills h2 {
+    color: #ff7d00;
+    padding-bottom: 0;
+  }
+
+  .cv-button {
+    font-size: 1.5rem;
+    margin: 0 0 8rem;
+  }
+}
+
+/* Iphone */
+@media (max-width: 700px) {
+  #skills {
+    padding: 0;
+  }
+
+  #skills h1 {
+    margin: 7% 0 9%;
+    font-size: 2.2rem;
+  }
+
+  #icon {
+    margin: 0;
+    font-size: 2.5rem;
+    padding: 0;
+  }
+
+  #skills h2 {
+    color: #ff7d00;
+    font-size: 1rem;
+  }
+
+  .cv-button {
+    font-size: 1.2rem;
+    margin: 0 0 7rem;
+  }
+}
+
+/* cv */
+.header {
+  text-align: center;
+  font-weight: bold;
+  background-color: #001b2c;
+  padding: 5%;
+}
+
+.header h1:hover {
+  text-align: center;
+  background-color: #001b2c;
+}
+
+.fix-it-fast {
+  text-align: left;
+  padding: 0 20%;
+}
+
+.ayli {
+  color: white;
+}
+
+.ayli:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* foooter  */
+#footer {
+  color: #0D2C4B;
+  margin: 0;
+}
+
+.fa-footer {
+  font-size: 2rem;
+  padding: 3% 3rem 2%;
+  color: #0D2C4B;
+}
+
+.fa-footer:hover {
+  text-decoration: none;
+  color: #ff7d00;
+}
+
+.p-footer {
+  margin: 0;
+  padding: 1rem 0 2rem;
+  font-size: 0.5rem;
+  color: #0D2C4B;
+}
